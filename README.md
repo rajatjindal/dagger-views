@@ -5,7 +5,7 @@ To reproduce:
 ### Run Dev engine dagger
 
 - git clone git@github.com:rajatjindal/dagger.git
-- git checkout <branch name>
+- git checkout strcase-testcases (this is branch on top of strcase lib with some additional changes while i explore this issue)
 - ensure no dagger engine is running (checked via docker desktop and removed the running containers)
 - start the dev engine by running `./hack/dev`
 
