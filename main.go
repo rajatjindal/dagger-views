@@ -28,6 +28,11 @@ func (m *ModuleXyz) ContainerEcho(stringArg string, skipTParseXyz string) *dagge
 	return dag.ModuleAbc().ContainerEcho(stringArg, skipTParseXyz)
 }
 
+// Returns a container that echoes whatever string argument is provided
+func (m *ModuleXyz) GetDarwinCLIVersion() *dagger.Container {
+	return dag.ModuleAbc().GetKubectlCliversion()
+}
+
 // Returns lines that match a pattern in the files of the provided Directory
 func (m *ModuleXyz) GrepDir(ctx context.Context, directoryArg *dagger.Directory, pattern string) (string, error) {
 	return dag.Container().

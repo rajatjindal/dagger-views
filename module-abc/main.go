@@ -28,6 +28,11 @@ func (m *ModuleAbc) ContainerEcho(stringArg string, skipTParse string) *dagger.C
 	return dag.Container().From("alpine:latest").WithExec([]string{"echo", stringArg})
 }
 
+// Returns a container that echoes whatever string argument is provided
+func (m *ModuleAbc) GetKubectlCLIVersion() *dagger.Container {
+	return dag.Container().From("alpine:latest").WithExec([]string{"echo", "v0.0.1"})
+}
+
 // Returns lines that match a pattern in the files of the provided Directory
 func (m *ModuleAbc) GrepDir(ctx context.Context, directoryArg *dagger.Directory, pattern string) (string, error) {
 	return dag.Container().
