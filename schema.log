@@ -1,60 +1,58 @@
-Full trace at https://dagger.cloud/rajatjindal/traces/fe91670b698bfef7ce9263649312e75c
+[1mFull trace at [0mhttps://dagger.cloud/rajatjindal/traces/75bb2745361ab4109cdfb513741ddc0c
 
-1   : connect
-2   :   connecting to engine
-2   :   | engine name=6b1e6564cc1a version=v0.12.6-010101000000-dev-0efec67b568d client=n7ad2a86juu6p6mow8ht6cwyi
-2   :   | cloud url=https://dagger.cloud/rajatjindal/traces/fe91670b698bfef7ce9263649312e75c
-2   :   connecting to engine DONE [0.1s]
-3   :   starting session
-1   : connect DONE [0.2s]
+[95m1   : [0mconnect
+[95m2   : [0m  connecting to engine
+[95m2   : [0m  [90m|[0m engine [2mname=[0m6b1e6564cc1a [2mversion=[0mv0.12.6-010101000000-dev-0efec67b568d [2mclient=[0mpexi80np3jgzn8zflwh9wm8tk
+[95m2   : [0m  [90m|[0m cloud [2murl=[0mhttps://dagger.cloud/rajatjindal/traces/75bb2745361ab4109cdfb513741ddc0c
+[95m2   : [0m  connecting to engine[32m DONE[0m[90m [0.1s][0m
+[95m1   : [0mconnect[32m DONE[0m[90m [0.1s][0m
 
-4   : cache request: mkfile /schema.json
-4   : cache request: mkfile /schema.json DONE [0.0s]
+[95m3   : [0mcache request: mkfile /schema.json
+[95m3   : [0mcache request: mkfile /schema.json[32m DONE[0m[90m [0.0s][0m
 
-5   : load cache: mkfile /schema.json
-5   : load cache: mkfile /schema.json DONE [0.0s]
+[95m4   : [0mload cache: mkfile /schema.json
+[95m4   : [0mload cache: mkfile /schema.json[32m DONE[0m[90m [0.0s][0m
 
-6   : cache request: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5
-6   : cache request: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5 DONE [0.0s]
+[95m5   : [0mcache request: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5
+[95m5   : [0mcache request: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5[32m DONE[0m[90m [0.0s][0m
 
-7   : load cache: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5
-7   : load cache: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5 DONE [0.0s]
+[95m6   : [0mload cache: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5
+[95m6   : [0mload cache: blob://sha256:1b8256e0589fffafc98b7f0c1d75d521335b26460a15b9c2b55dbf620537ece5[32m DONE[0m[90m [0.0s][0m
 
-8   : moduleSource(refString: "."): ModuleSource!
-8   : moduleSource DONE [0.0s]
+[95m7   : [0m[1mmoduleSource[0m([36mrefString:[0m [33m"."[0m)[2m: ModuleSource![0m
+[95m7   : [0m[1mmoduleSource[0m[32m DONE[0m[90m [0.0s][0m
 
-9   : ModuleSource.kind: ModuleSourceKind!
-9   : ModuleSource.kind DONE [0.0s]
+[95m8   : [0mModuleSource.[1mkind[0m[2m: ModuleSourceKind![0m
+[95m8   : [0mModuleSource.[1mkind[0m[32m DONE[0m[90m [0.0s][0m
 
-10  : ModuleSource.resolveContextPathFromCaller: String!
-10  : ModuleSource.resolveContextPathFromCaller DONE [0.0s]
+[95m9   : [0mModuleSource.[1mresolveContextPathFromCaller[0m[2m: String![0m
+[95m9   : [0mModuleSource.[1mresolveContextPathFromCaller[0m[32m DONE[0m[90m [0.0s][0m
 
-11  : ModuleSource.resolveFromCaller: ModuleSource!
-12  :   upload /Users/rajatjindal/go/src/github.com/rajatjindal/dagger-views from aoy9hlxsaol1hcos3bqiwphn4 (client id: n7ad2a86juu6p6mow8ht6cwyi, session id: kkx5k46kht1ncyqsfa6gqyg6p) (exclude: **/.git) (include: module-abc/dagger.json, module-abc/**/*, **/go.work.sum, **/go.work, **/vendor/, **/*.go, dagger.json, ./**/*, **/go.mod, **/go.sum)
-11  : ModuleSource.resolveFromCaller DONE [0.0s]
+[95m10  : [0mModuleSource.[1mresolveFromCaller[0m[2m: ModuleSource![0m
+[95m10  : [0mModuleSource.[1mresolveFromCaller[0m[32m DONE[0m[90m [0.0s][0m
 
-13  : ModuleSource.asModule: Module!
+[95m11  : [0mModuleSource.[1masModule[0m[2m: Module![0m
 
-14  : Module.initialize: Module!
+[95m12  : [0mModule.[1minitialize[0m[2m: Module![0m
 
-13  : ModuleSource.asModule DONE [1.9s]
+[95m11  : [0mModuleSource.[1masModule[0m[32m DONE[0m[90m [1.6s][0m
 
-14  : Module.initialize DONE [0.6s]
+[95m12  : [0mModule.[1minitialize[0m[32m DONE[0m[90m [0.6s][0m
 
-15  : Module.serve: Void
-15  : Module.serve DONE [0.0s]
+[95m13  : [0mModule.[1mserve[0m[2m: Void[0m
+[95m13  : [0mModule.[1mserve[0m[32m DONE[0m[90m [0.0s][0m
 
-16  : cache request: mkfile /schema.json
-16  : cache request: mkfile /schema.json DONE [0.0s]
+[95m14  : [0mcache request: mkfile /schema.json
+[95m14  : [0mcache request: mkfile /schema.json[32m DONE[0m[90m [0.0s][0m
 
-17  : load cache: mkfile /schema.json
-17  : load cache: mkfile /schema.json DONE [0.0s]
+[95m15  : [0mload cache: mkfile /schema.json
+[95m15  : [0mload cache: mkfile /schema.json[32m DONE[0m[90m [0.0s][0m
 
-18  : cache request: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221
-18  : cache request: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221 DONE [0.0s]
+[95m16  : [0mcache request: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221
+[95m16  : [0mcache request: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221[32m DONE[0m[90m [0.0s][0m
 
-19  : load cache: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221
-19  : load cache: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221 DONE [0.0s]
+[95m17  : [0mload cache: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221
+[95m17  : [0mload cache: blob://sha256:ef70af44b589eb2a74fc629b86f3b6a19fe556a39274b97476ee98038ddb4221[32m DONE[0m[90m [0.0s][0m
 
 {
     "__schema": {
