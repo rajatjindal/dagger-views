@@ -1,0 +1,6 @@
+{
+  "name": "module-xyz",
+  "sdk": "go",
+  "source": ".",
+  "engineVersion": "v0.12.6-010101000000-dev-1cb88bedfa66"
+}
