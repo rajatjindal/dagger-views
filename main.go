@@ -25,7 +25,7 @@ type ModuleXyz struct {
 
 // Returns a container that echoes whatever string argument is provided
 func (m *ModuleXyz) ContainerEcho(stringArg string, skipTParseXyz string) *dagger.Container {
-	return dag.Container().From("alpine:latest").WithExec([]string{"echo", stringArg})
+	return dag.ModuleAbc().ContainerEcho(stringArg, skipTParseXyz)
 }
 
 // Returns lines that match a pattern in the files of the provided Directory

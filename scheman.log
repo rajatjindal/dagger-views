@@ -1,12 +1,12 @@
-Full trace at https://dagger.cloud/rajatjindal/traces/a7c9615dc495d524469e9af70d260ce4
+Full trace at https://dagger.cloud/rajatjindal/traces/df385e5488558df765d30bb733600ba6
 
 1   : connect
 2   :   connecting to engine
-2   :   | engine name=b3d8046b4974 version=v0.12.6-010101000000-dev-1cb88bedfa66 client=j06jeh3x5y30uhxrlu8nbummd
-2   :   | cloud url=https://dagger.cloud/rajatjindal/traces/a7c9615dc495d524469e9af70d260ce4
+2   :   | engine name=b3d8046b4974 version=v0.12.6-010101000000-dev-1cb88bedfa66 client=nnhs8owypis73cfdjcgvprw07
+2   :   | cloud url=https://dagger.cloud/rajatjindal/traces/df385e5488558df765d30bb733600ba6
 2   :   connecting to engine DONE [0.1s]
 3   :   starting session
-1   : connect DONE [0.2s]
+1   : connect DONE [0.1s]
 
 4   : cache request: mkfile /schema.json
 4   : cache request: mkfile /schema.json DONE [0.0s]
@@ -36,9 +36,9 @@ Full trace at https://dagger.cloud/rajatjindal/traces/a7c9615dc495d524469e9af70d
 
 13  : Module.initialize: Module!
 
-12  : ModuleSource.asModule DONE [0.5s]
+12  : ModuleSource.asModule DONE [1.6s]
 
-13  : Module.initialize DONE [0.7s]
+13  : Module.initialize DONE [0.6s]
 
 14  : Module.serve: Void
 14  : Module.serve DONE [0.0s]
@@ -46,14 +46,14 @@ Full trace at https://dagger.cloud/rajatjindal/traces/a7c9615dc495d524469e9af70d
 15  : cache request: mkfile /schema.json
 15  : cache request: mkfile /schema.json DONE [0.0s]
 
-16  : mkfile /schema.json
-16  : mkfile /schema.json DONE [0.0s]
+16  : load cache: mkfile /schema.json
+16  : load cache: mkfile /schema.json DONE [0.0s]
 
 17  : cache request: blob://sha256:013192ef3dedc23e1d6ec31dce8892abc3a3cab42bdacf15ea4a544baba0d1d7
 17  : cache request: blob://sha256:013192ef3dedc23e1d6ec31dce8892abc3a3cab42bdacf15ea4a544baba0d1d7 DONE [0.0s]
 
-18  : blob://sha256:013192ef3dedc23e1d6ec31dce8892abc3a3cab42bdacf15ea4a544baba0d1d7
-18  : blob://sha256:013192ef3dedc23e1d6ec31dce8892abc3a3cab42bdacf15ea4a544baba0d1d7 DONE [0.0s]
+18  : load cache: blob://sha256:013192ef3dedc23e1d6ec31dce8892abc3a3cab42bdacf15ea4a544baba0d1d7
+18  : load cache: blob://sha256:013192ef3dedc23e1d6ec31dce8892abc3a3cab42bdacf15ea4a544baba0d1d7 DONE [0.0s]
 
 {
     "__schema": {
