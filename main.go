@@ -24,8 +24,8 @@ type ModuleXyz struct {
 }
 
 // Returns a container that echoes whatever string argument is provided
-func (m *ModuleXyz) ContainerEcho(stringArg string, skipTParseXyz string) *dagger.Container {
-	return dag.ModuleAbc().ContainerEcho(stringArg, skipTParseXyz)
+func (m *ModuleXyz) ContainerEcho(stringArg2 string, skipTParseXyz string) *dagger.Container {
+	return dag.ModuleAbc().ContainerEcho(stringArg2, skipTParseXyz)
 }
 
 // Returns a container that echoes whatever string argument is provided
