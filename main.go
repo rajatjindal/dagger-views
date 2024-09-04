@@ -30,7 +30,7 @@ func (m *ModuleXyz) ContainerEcho(stringArg string, skipTParseXyz string) *dagge
 
 // Returns a container that echoes whatever string argument is provided
 func (m *ModuleXyz) GetDarwinCLIVersion() *dagger.Container {
-	return dag.ModuleAbc().GetKubectlCLIVersion()
+	return dag.ModuleAbc().GetKubectlCliVersion()
 }
 
 // Returns lines that match a pattern in the files of the provided Directory
